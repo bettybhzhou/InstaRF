@@ -23,3 +23,16 @@ Image processing uses computer algorithms to enhance an image or to extract usef
 ## R Ecosystem
 
 [InstaR]( https://github.com/UBC-MDS/InstaR/tree/v4.0) is a R package that contains the three functions: blur, flip and greyscale to transform images. In this project, we plan to implement three more image processing functions in R by exploring additional filters.
+
+## Repo Structure (updating)
+
+InstaRF: repo root
+  * InstaRF: package formatting, including dvtool files.
+    * R: [R](InstaRF/R/) folder contains most of our function files, now all the functions are defined but empty, only with doc string;
+  * test_r: folder contains all our test .R file.
+    * test_image: contains all the testing image we will use;
+    * [test_RGB_manipulation.R](test_r/test_RGB_manipulation.R)
+    * [test_Laplacian_edge_detecting.R](test_r/test_Laplacian_edge_detecting.R)
+    * [test_gaussian_blur.R](test_r/test_gaussian_blur.R)
+  * [CONTRIBUTING.md](CONTRIBUTING.md)
+  * [Code_of_CONDUCT.md](Code_of_CONDUCT.md)
